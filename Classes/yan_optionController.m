@@ -11,9 +11,6 @@
  发相应子控制器的某些事件，例如网络请求等操作
  */
 #import "yan_optionController.h"
-#import "IHHireViewController.h"
-#import "IHTaskViewController.h"
-#import "IHTopicViewController.h"
 #import "yan_optionBar.h"
 
 #define BARHEIGHT 44
