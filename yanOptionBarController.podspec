@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "yanOptionBarController"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "OptionBarController for iOS"
   s.description  = "OptionBarController is iPad and iPhone compatible. Supports landscape and portrait orientations and can be used inside UITabbarController."
   s.homepage     = "https://github.com/yans67/yanOptionBarController"
