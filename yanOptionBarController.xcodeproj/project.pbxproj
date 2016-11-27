@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D270D27D1DEADF1600324477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D270D27C1DEADF1600324477 /* main.m */; };
+		D270D2861DEADF1600324477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D270D2841DEADF1600324477 /* Main.storyboard */; };
+		D270D2881DEADF1600324477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D270D2871DEADF1600324477 /* Assets.xcassets */; };
+		D270D28B1DEADF1600324477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D270D2891DEADF1600324477 /* LaunchScreen.storyboard */; };
+		D270D2A71DEADF9100324477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D270D2931DEADF9100324477 /* AppDelegate.m */; };
+		D270D2A81DEADF9100324477 /* yan_optionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D270D2971DEADF9100324477 /* yan_optionBar.m */; };
+		D270D2A91DEADF9100324477 /* yan_optionBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D270D2991DEADF9100324477 /* yan_optionBarItem.m */; };
+		D270D2AA1DEADF9100324477 /* yan_optionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D270D29B1DEADF9100324477 /* yan_optionController.m */; };
+		D270D2AB1DEADF9100324477 /* IHHireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D270D29E1DEADF9100324477 /* IHHireViewController.m */; };
+		D270D2AC1DEADF9100324477 /* IHTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D270D2A11DEADF9100324477 /* IHTaskViewController.m */; };
+		D270D2AD1DEADF9100324477 /* IHTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D270D2A41DEADF9100324477 /* IHTopicViewController.m */; };
+		D270D2AE1DEADF9100324477 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D270D2A61DEADF9100324477 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D270D2781DEADF1600324477 /* yanOptionBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yanOptionBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D270D27C1DEADF1600324477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D270D2851DEADF1600324477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D270D2871DEADF1600324477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D270D28A1DEADF1600324477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D270D28C1DEADF1600324477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D270D2921DEADF9100324477 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D270D2931DEADF9100324477 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D270D2961DEADF9100324477 /* yan_optionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yan_optionBar.h; sourceTree = "<group>"; };
+		D270D2971DEADF9100324477 /* yan_optionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yan_optionBar.m; sourceTree = "<group>"; };
+		D270D2981DEADF9100324477 /* yan_optionBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yan_optionBarItem.h; sourceTree = "<group>"; };
+		D270D2991DEADF9100324477 /* yan_optionBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yan_optionBarItem.m; sourceTree = "<group>"; };
+		D270D29A1DEADF9100324477 /* yan_optionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yan_optionController.h; sourceTree = "<group>"; };
+		D270D29B1DEADF9100324477 /* yan_optionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yan_optionController.m; sourceTree = "<group>"; };
+		D270D29D1DEADF9100324477 /* IHHireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHHireViewController.h; sourceTree = "<group>"; };
+		D270D29E1DEADF9100324477 /* IHHireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHHireViewController.m; sourceTree = "<group>"; };
+		D270D2A01DEADF9100324477 /* IHTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHTaskViewController.h; sourceTree = "<group>"; };
+		D270D2A11DEADF9100324477 /* IHTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHTaskViewController.m; sourceTree = "<group>"; };
+		D270D2A31DEADF9100324477 /* IHTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHTopicViewController.h; sourceTree = "<group>"; };
+		D270D2A41DEADF9100324477 /* IHTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHTopicViewController.m; sourceTree = "<group>"; };
+		D270D2A51DEADF9100324477 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D270D2A61DEADF9100324477 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D270D2751DEADF1600324477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D270D26F1DEADF1600324477 = {
+			isa = PBXGroup;
+			children = (
+				D270D27A1DEADF1600324477 /* yanOptionBarController */,
+				D270D2791DEADF1600324477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D270D2791DEADF1600324477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D270D2781DEADF1600324477 /* yanOptionBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D270D27A1DEADF1600324477 /* yanOptionBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D270D2921DEADF9100324477 /* AppDelegate.h */,
+				D270D2931DEADF9100324477 /* AppDelegate.m */,
+				D270D2941DEADF9100324477 /* classes */,
+				D270D2A51DEADF9100324477 /* MainViewController.h */,
+				D270D2A61DEADF9100324477 /* MainViewController.m */,
+				D270D2841DEADF1600324477 /* Main.storyboard */,
+				D270D2871DEADF1600324477 /* Assets.xcassets */,
+				D270D2891DEADF1600324477 /* LaunchScreen.storyboard */,
+				D270D28C1DEADF1600324477 /* Info.plist */,
+				D270D27B1DEADF1600324477 /* Supporting Files */,
+			);
+			path = yanOptionBarController;
+			sourceTree = "<group>";
+		};
+		D270D27B1DEADF1600324477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D270D27C1DEADF1600324477 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D270D2941DEADF9100324477 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D270D2951DEADF9100324477 /* Ctrl */,
+				D270D29C1DEADF9100324477 /* Hire */,
+				D270D29F1DEADF9100324477 /* Task */,
+				D270D2A21DEADF9100324477 /* Topic */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		D270D2951DEADF9100324477 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				D270D2961DEADF9100324477 /* yan_optionBar.h */,
+				D270D2971DEADF9100324477 /* yan_optionBar.m */,
+				D270D2981DEADF9100324477 /* yan_optionBarItem.h */,
+				D270D2991DEADF9100324477 /* yan_optionBarItem.m */,
+				D270D29A1DEADF9100324477 /* yan_optionController.h */,
+				D270D29B1DEADF9100324477 /* yan_optionController.m */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		D270D29C1DEADF9100324477 /* Hire */ = {
+			isa = PBXGroup;
+			children = (
+				D270D29D1DEADF9100324477 /* IHHireViewController.h */,
+				D270D29E1DEADF9100324477 /* IHHireViewController.m */,
+			);
+			path = Hire;
+			sourceTree = "<group>";
+		};
+		D270D29F1DEADF9100324477 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				D270D2A01DEADF9100324477 /* IHTaskViewController.h */,
+				D270D2A11DEADF9100324477 /* IHTaskViewController.m */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		D270D2A21DEADF9100324477 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				D270D2A31DEADF9100324477 /* IHTopicViewController.h */,
+				D270D2A41DEADF9100324477 /* IHTopicViewController.m */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D270D2771DEADF1600324477 /* yanOptionBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D270D28F1DEADF1600324477 /* Build configuration list for PBXNativeTarget "yanOptionBarController" */;
+			buildPhases = (
+				D270D2741DEADF1600324477 /* Sources */,
+				D270D2751DEADF1600324477 /* Frameworks */,
+				D270D2761DEADF1600324477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yanOptionBarController;
+			productName = yanOptionBarController;
+			productReference = D270D2781DEADF1600324477 /* yanOptionBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D270D2701DEADF1600324477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yans67;
+				TargetAttributes = {
+					D270D2771DEADF1600324477 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D270D2731DEADF1600324477 /* Build configuration list for PBXProject "yanOptionBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D270D26F1DEADF1600324477;
+			productRefGroup = D270D2791DEADF1600324477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D270D2771DEADF1600324477 /* yanOptionBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D270D2761DEADF1600324477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D270D28B1DEADF1600324477 /* LaunchScreen.storyboard in Resources */,
+				D270D2881DEADF1600324477 /* Assets.xcassets in Resources */,
+				D270D2861DEADF1600324477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D270D2741DEADF1600324477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D270D2A71DEADF9100324477 /* AppDelegate.m in Sources */,
+				D270D2AD1DEADF9100324477 /* IHTopicViewController.m in Sources */,
+				D270D2A81DEADF9100324477 /* yan_optionBar.m in Sources */,
+				D270D2A91DEADF9100324477 /* yan_optionBarItem.m in Sources */,
+				D270D2AE1DEADF9100324477 /* MainViewController.m in Sources */,
+				D270D2AC1DEADF9100324477 /* IHTaskViewController.m in Sources */,
+				D270D2AA1DEADF9100324477 /* yan_optionController.m in Sources */,
+				D270D27D1DEADF1600324477 /* main.m in Sources */,
+				D270D2AB1DEADF9100324477 /* IHHireViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D270D2841DEADF1600324477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D270D2851DEADF1600324477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D270D2891DEADF1600324477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D270D28A1DEADF1600324477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D270D28D1DEADF1600324477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D270D28E1DEADF1600324477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D270D2901DEADF1600324477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yanOptionBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.yans67.yanOptionBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D270D2911DEADF1600324477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yanOptionBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.yans67.yanOptionBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D270D2731DEADF1600324477 /* Build configuration list for PBXProject "yanOptionBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D270D28D1DEADF1600324477 /* Debug */,
+				D270D28E1DEADF1600324477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D270D28F1DEADF1600324477 /* Build configuration list for PBXNativeTarget "yanOptionBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D270D2901DEADF1600324477 /* Debug */,
+				D270D2911DEADF1600324477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D270D2701DEADF1600324477 /* Project object */;
+}

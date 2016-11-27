@@ -1,9 +1,9 @@
 //
 //  main.m
-//  SelectionController
+//  yanOptionBarController
 //
-//  Created by yans67 on 16/11/13.
-//  Copyright © 2016年 Minstone. All rights reserved.
+//  Created by yans67 on 16/11/27.
+//  Copyright © 2016年 yans67. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
