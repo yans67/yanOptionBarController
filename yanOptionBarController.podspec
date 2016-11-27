@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author       = { "yans67" => "yans67@163.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/yans67/yanOptionBarController.git", :tag => s.version.to_s }
-  s.source_files  = 'yanOptionBarController/classes/Ctrl/*.{h,m}'
+  s.source_files  = 'Classes/*.{h,m}'
   s.requires_arc = true
 end
